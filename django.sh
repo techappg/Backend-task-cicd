@@ -4,7 +4,8 @@ if [ -d "env" ]
 then
     echo "PYTHON VIRTUAL ENVIRONMENT EXISTS."
 else
-    virtualenv -p python3.8 env
+    python3 -m venv env
+
 fi
 
 . env/bin/activate
