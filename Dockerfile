@@ -1,4 +1,4 @@
-FROM python3
+FROM python:3
 RUN pip install -r requirements
 
 COPY . .
